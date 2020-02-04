@@ -26,6 +26,7 @@ class CreateProfilesTable extends Migration
             $table->string('village')->nullable();
             $table->string('upazilla')->nullable();
             $table->string('district')->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
 
             $table->index('user_id');
